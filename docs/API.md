@@ -205,7 +205,7 @@ The default menu which is rendered by the `Typeahead` component. Can be used in 
 Name | Type | Default | Description
 -----|------|---------|------------
 labelKey `required` | string \| function | | See full documentation in the [Rendering section](Rendering.md#labelkey-string--function).
-newSelectionPrefix | string | `'New selection: '` | Provides the ability to specify a prefix before the user-entered text to indicate that the selection will be new. No-op unless `allowNew={true}`.
+newSelectionPrefix | string | `'Usá esta tag '` | Provides the ability to specify a prefix before the user-entered text to indicate that the selection will be new. No-op unless `allowNew={true}`.
 paginationText | string | `'Display additional results...'` | Prompt displayed when large data sets are paginated.
 renderMenuItemChildren | function | | Provides a hook for customized rendering of menu item contents.
 text `required` | string | | The current value of the typeahead's input.

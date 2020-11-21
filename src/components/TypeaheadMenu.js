@@ -39,7 +39,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  newSelectionPrefix: 'New selection: ',
+  newSelectionPrefix: 'Usá esta tag: ',
   paginationText: 'Display additional results...',
   renderMenuItemChildren: (
     option: Option,

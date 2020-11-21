@@ -274,7 +274,7 @@ describe('<Typeahead>', () => {
 
       const menuItems = getMenuItems(typeahead);
       expect(menuItems.length).toBe(1);
-      expect(menuItems.text()).toBe('New selection: xx');
+      expect(menuItems.text()).toBe('Usá esta tag: xx');
     });
   });
 
@@ -1161,7 +1161,7 @@ describe('<Typeahead>', () => {
 
     beforeEach(() => {
       emptyLabel = 'No results...';
-      newSelectionPrefix = 'New selection: ';
+      newSelectionPrefix = 'Usá esta tag: ';
       text = 'xxx';
 
       typeahead.setProps({
